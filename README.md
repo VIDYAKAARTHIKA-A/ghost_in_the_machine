@@ -12,25 +12,25 @@ This project investigates whether machine-generated text can be reliably disting
 
 The pipeline explores:
 
-Statistical authorship fingerprinting
+* Statistical authorship fingerprinting
 
-Multi-tier AI detection models
+* Multi-tier AI detection models
 
-Model interpretability
+* Model interpretability
 
-Genetic algorithm-based adversarial text evolution
+* Genetic algorithm-based adversarial text evolution
 
 🎯 Objectives
 
-Build an authorship-controlled dataset.
+* Build an authorship-controlled dataset.
 
-Prove that AI and human texts are mathematically distinct.
+* Prove that AI and human texts are mathematically distinct.
 
-Train multi-tier detection models.
+* Train multi-tier detection models.
 
-Explain model decision-making.
+* Explain model decision-making.
 
-Attempt to evolve AI text that bypasses detection.
+* Attempt to evolve AI text that bypasses detection.
 
 📚 Task 0 — Dataset Construction
 “The Library of Babel”
@@ -39,43 +39,43 @@ Attempt to evolve AI text that bypasses detection.
 Texts were collected from Project Gutenberg.
 
 Selected Authors
-Charles Dickens
+Charles Dickens: 
 
-David Copperfield
+1. David Copperfield
 
-Great Expectations
+2. Great Expectations
 
-Hard Times
+3. Hard Times
 
-Oliver Twist
+4. Oliver Twist
 
-A Tale of Two Cities
+5. A Tale of Two Cities
 
 Jane Austen
 
-Emma
+1. Emma
 
-Northanger Abbey
+2. Northanger Abbey
 
-Persuasion
+3. Persuasion
 
-Pride and Prejudice
+4. Pride and Prejudice
 
-Sense and Sensibility
+5. Sense and Sensibility
 
 🧹 Data Cleaning
 
 The following preprocessing steps were applied:
 
-Removed Gutenberg headers and footers
+1. Removed Gutenberg headers and footers
 
-Normalized whitespace
+2. Normalized whitespace
 
-Extracted paragraph-level text
+3. Extracted paragraph-level text
 
-Filtered paragraphs between 100–200 words
+4. Filtered paragraphs between 100–200 words
 
-Final Human Dataset
+5. Final Human Dataset
 
 3328 paragraphs
 
@@ -85,35 +85,34 @@ To ensure classification relies on style rather than topic, thematic extraction 
 
 Identified Core Themes
 
-Social Class and Economic Inequality
+1. Social Class and Economic Inequality
 
-Marriage and Courtship
+2. Marriage and Courtship
 
-Moral Character and Virtue
+3. Moral Character and Virtue
 
-Pursuit of Happiness
+4. Pursuit of Happiness
 
-Urban Social Transformation
+5. Urban Social Transformation
 
-Reputation and Honor
+6. Reputation and Honor
 
-Education and Self-Improvement
+7. Education and Self-Improvement
 
-Friendship and Human Relationships
+8. Friendship and Human Relationships
 
 🤖 AI Dataset Generation
 Class 2 — AI Neutral
 
-Generated using Gemini 2.5 Flash Lite
+* Generated using Gemini 2.5 Flash Lite
 
-500 paragraphs
+* 500 paragraphs
 
-Topic-controlled
+* Topic-controlled
 
-No stylistic constraints
+* No stylistic constraints
 
 🎭 Class 3 — AI Styled
-
 AI was prompted to mimic author-specific styles.
 
 Austen Style Characteristics
@@ -262,11 +261,11 @@ GloVe learns vector representations of words using global word co-occurrence sta
 
 It captures:
 
-Semantic similarity
+* Semantic similarity
 
-Contextual relationships
+* Contextual relationships
 
-Narrative tone
+* Narrative tone
 
 Results
 
@@ -277,136 +276,136 @@ This indicates AI struggles to perfectly replicate deeper semantic narrative pat
 Tier C — Transformer Detector
 DistilBERT
 
-A compressed transformer model retaining most of BERT’s language understanding capability while reducing computational cost.
+* A compressed transformer model retaining most of BERT’s language understanding capability while reducing computational cost.
 
-LoRA (Low Rank Adaptation)
+* LoRA (Low Rank Adaptation)
 
 Efficient fine-tuning method where:
 
-Only a small fraction of model parameters are trained
+* Only a small fraction of model parameters are trained
 
-Preserves pretrained knowledge
+* Preserves pretrained knowledge
 
-Reduces memory and training cost
+* Reduces memory and training cost
 
 Training Summary
 
-Only ~1.09% parameters trained
+* Only ~1.09% parameters trained
 
-GPU acceleration used
+* GPU acceleration used
 
 Results
 
-Accuracy: 100%
+* Accuracy: 100%
 
 This suggests transformers capture:
 
-Sentence rhythm
+* Sentence rhythm
 
-Contextual coherence
+* Contextual coherence
 
-Narrative voice
+* Narrative voice
 
 🔍 Task 3 — Explainability
 
-Due to near-perfect classification performance, interpretability was theoretically analyzed.
+* Due to near-perfect classification performance, interpretability was theoretically analyzed.
 
-Models likely detect AI-specific linguistic signals such as:
+* Models likely detect AI-specific linguistic signals such as:
 
-Over-structured phrasing
+* Over-structured phrasing
 
-Excess lexical novelty
+* Excess lexical novelty
 
-Uniform narrative rhythm
+* Uniform narrative rhythm
 
 🧬 Task 4 — Genetic Algorithm Adversarial Attack
 “The Turing Test”
 Objective
 
-Attempt to evolve AI text until the detector classifies it as Human (>90%).
+* Attempt to evolve AI text until the detector classifies it as Human (>90%).
 
 Genetic Algorithm Workflow
-Initial Population
+* Initial Population
 
-10 AI-generated paragraphs
+* 10 AI-generated paragraphs
 
-Fitness Function
+* Fitness Function
 
-Human classification probability from Tier C model.
+* Human classification probability from Tier C model.
 
-Selection
+* Selection
 
 Top 3 highest-scoring paragraphs retained.
 
-Mutation Strategies
-Rhythm Mutation
+Mutation Strategies:
+* Rhythm Mutation
 
-Alters sentence flow and pacing.
+* Alters sentence flow and pacing.
 
-Vocabulary Mutation
+* Vocabulary Mutation
 
-Replaces formal vocabulary with natural alternatives.
+* Replaces formal vocabulary with natural alternatives.
 
-Inconsistency Injection
+* Inconsistency Injection
 
-Introduces subtle human-like imperfections.
+* Introduces subtle human-like imperfections.
 
-Archaic Vocabulary
+* Archaic Vocabulary
 
-Adds rare but natural lexical choices.
+* Adds rare but natural lexical choices.
 
-Punctuation Variation
+* Punctuation Variation
 
-Introduces expressive punctuation diversity.
+* Introduces expressive punctuation diversity.
 
-Structural Complexity
+* Structural Complexity
 
-Adds subordinate clauses and narrative detail.
+* Adds subordinate clauses and narrative detail.
 
-Evolution Results
+Evolution Results: 
 
-Generations executed: 10
+* Generations executed: 10
 
-Best Human Score Achieved: 0.51
+* Best Human Score Achieved: 0.51
 
-Target Score: 0.90
+* Target Score: 0.90
 
 Interpretation
 
 The plateau suggests:
 
-The detector captures deep linguistic signals
+* The detector captures deep linguistic signals
 
-Simple stylistic perturbations are insufficient to bypass detection
+* Simple stylistic perturbations are insufficient to bypass detection
 
 📊 Key Findings
 
-Human and AI text are mathematically separable.
+* Human and AI text are mathematically separable.
 
-Statistical stylometry alone achieves high accuracy.
+* Statistical stylometry alone achieves high accuracy.
 
-Semantic embeddings dramatically improve detection.
+* Semantic embeddings dramatically improve detection.
 
-Transformer-based detectors nearly eliminate classification errors.
+* Transformer-based detectors nearly eliminate classification errors.
 
-Adversarial text evolution remains challenging.
+* Adversarial text evolution remains challenging.
 
 🛠 Technology Stack
 
-Python
+1. Python
 
-SpaCy
+2. SpaCy
 
-Scikit-Learn
+3. Scikit-Learn
 
-XGBoost
+4. XGBoost
 
-PyTorch
+5. PyTorch
 
-HuggingFace Transformers
+6. HuggingFace Transformers
 
-LoRA (PEFT)
+7. LoRA (PEFT)
 
-Gemini API
+8. Gemini API
 
-Matplotlib / Seaborn
+9. Matplotlib / Seaborn
