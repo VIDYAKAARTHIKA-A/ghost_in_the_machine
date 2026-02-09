@@ -1,0 +1,30 @@
+# Virtual environments
+env_precog/
+venv/
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large embeddings
+glove*.txt
+
+# Logs
+log_*.txt
+*.log
+
+# Experiment results
+evolution_results_*.json
+ga_results_*.json
+
+# Images
+*.png
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/

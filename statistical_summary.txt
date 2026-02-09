@@ -1,0 +1,156 @@
+====================================================================================================
+STATISTICAL SUMMARY
+====================================================================================================
+
+
+ttr:
+  Min:    0.213000
+  Max:    0.259200
+  Mean:   0.240667
+  Std:    0.024417
+  Range:  0.046200
+  CV:     10.15%
+
+hapax_count:
+  Min:    477.000000
+  Max:    845.000000
+  Mean:   685.000000
+  Std:    188.637218
+  Range:  368.000000
+  CV:     27.54%
+
+hapax_percentage:
+  Min:    44.788732
+  Max:    65.200617
+  Mean:   56.225433
+  Std:    10.426196
+  Range:  20.411885
+  CV:     18.54%
+
+adj_noun_ratio:
+  Min:    0.479218
+  Max:    0.508035
+  Mean:   0.489352
+  Std:    0.016199
+  Range:  0.028817
+  CV:     3.31%
+
+dep_tree_depth:
+  Min:    6.776171
+  Max:    7.117149
+  Mean:   7.001365
+  Std:    0.195050
+  Range:  0.340978
+  CV:     2.79%
+
+avg_sentence_length:
+  Min:    23.191165
+  Max:    55.407381
+  Mean:   34.777117
+  Std:    17.911472
+  Range:  32.216216
+  CV:     51.50%
+
+flesch_kincaid:
+  Min:    10.578750
+  Max:    25.713521
+  Mean:   18.711108
+  Std:    7.630393
+  Range:  15.134771
+  CV:     40.78%
+
+punct_comma:
+  Min:    15.444168
+  Max:    17.226267
+  Mean:   16.155447
+  Std:    0.943887
+  Range:  1.782099
+  CV:     5.84%
+
+punct_period:
+  Min:    2.663418
+  Max:    7.025634
+  Mean:   4.986676
+  Std:    2.194960
+  Range:  4.362216
+  CV:     44.02%
+
+punct_semicolon:
+  Min:    0.039584
+  Max:    2.231606
+  Mean:   0.972118
+  Std:    1.131996
+  Range:  2.192021
+  CV:     116.45%
+
+punct_colon:
+  Min:    0.002083
+  Max:    0.253948
+  Mean:   0.090296
+  Std:    0.141871
+  Range:  0.251865
+  CV:     157.12%
+
+punct_exclamation:
+  Min:    0.000000
+  Max:    0.629840
+  Mean:   0.263003
+  Std:    0.327507
+  Range:  0.629840
+  CV:     124.53%
+
+punct_question:
+  Min:    0.000000
+  Max:    0.311097
+  Mean:   0.141899
+  Std:    0.157335
+  Range:  0.311097
+  CV:     110.88%
+
+punct_dash:
+  Min:    0.014584
+  Max:    0.753393
+  Mean:   0.273678
+  Std:    0.415891
+  Range:  0.738810
+  CV:     151.96%
+
+punct_hyphen:
+  Min:    1.095863
+  Max:    1.749466
+  Mean:   1.330447
+  Std:    0.363746
+  Range:  0.653603
+  CV:     27.34%
+
+punct_apostrophe:
+  Min:    0.000000
+  Max:    1.018778
+  Mean:   0.600629
+  Std:    0.533340
+  Range:  1.018778
+  CV:     88.80%
+
+punct_quotation:
+  Min:    0.000000
+  Max:    0.033956
+  Mean:   0.012708
+  Std:    0.018519
+  Range:  0.033956
+  CV:     145.73%
+
+punct_parenthesis_open:
+  Min:    0.000000
+  Max:    0.196800
+  Mean:   0.066307
+  Std:    0.113015
+  Range:  0.196800
+  CV:     170.44%
+
+punct_parenthesis_close:
+  Min:    0.000000
+  Max:    0.196800
+  Mean:   0.066307
+  Std:    0.113015
+  Range:  0.196800
+  CV:     170.44%

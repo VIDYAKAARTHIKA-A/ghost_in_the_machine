@@ -1,0 +1,18 @@
+PROMPT TEMPLATE FOR CLASS 2: AI-Generated (Neutral Style)
+============================================================
+Write a narrative paragraph about {TOPIC} in natural, contemporary storytelling style.
+
+Requirements:
+- 100-150 words
+- Tell a story, don't analyze or explain concepts
+- Use modern, conversational narrative voice
+- Focus on characters, events, and descriptions
+- Write as if continuing a novel, not writing an essay
+- Use simple, direct language
+- First or third person perspective (choose what fits)
+
+NO academic language. NO abstract concepts. NO analytical tone.
+Just tell a story about the topic.
+
+Output only the paragraph, no preamble or title.
+
